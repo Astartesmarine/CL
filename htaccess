@@ -1,0 +1,4 @@
+RewriteEngine on
+Options -Multiviews
+RewriteBase /
+RewriteRule ^homepage\.html$ /index.php?page=$1 [L]
